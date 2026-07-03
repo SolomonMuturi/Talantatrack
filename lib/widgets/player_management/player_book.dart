@@ -209,7 +209,7 @@ class PlayerBook extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text('TalantaTrack Player Book © ${DateTime.now().year}', style: const TextStyle(fontSize: 10, color: Colors.grey)),
+            Text('TalentTrack Player Book © ${DateTime.now().year}', style: const TextStyle(fontSize: 10, color: Colors.grey)),
             Text('Generated: ${DateFormat('yMd H:m').format(DateTime.now())}', style: const TextStyle(fontSize: 10, color: Colors.grey)),
           ],
         ),
