@@ -1,4 +1,4 @@
-# talantatrack
+# talenttrack
 
 A sports app
 
