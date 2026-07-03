@@ -42,7 +42,7 @@ class _EventCreationFormScreenState extends State<EventCreationFormScreen> {
               const Text('Provide the details for your event below.', style: TextStyle(color: Colors.grey)),
               const SizedBox(height: 24),
               
-              _buildTextField('Organizer Name *', _organizerController, 'e.g. TalantaTrack Academy'),
+              _buildTextField('Organizer Name *', _organizerController, 'e.g. TalentTrack Academy'),
               const SizedBox(height: 20),
               _buildTextField('Event Name *', _titleController, 'e.g. U-17 Regional Finals'),
               const SizedBox(height: 20),
