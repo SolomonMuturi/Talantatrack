@@ -136,10 +136,14 @@ class _LoginPageState extends State<LoginPage> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         // Logo
-                        Icon(
-                          Icons.track_changes,
-                          size: 64,
-                          color: primaryColor,
+                        Image.asset(
+                          'assets/images/logo.png',
+                          height: 80,
+                          errorBuilder: (context, error, stackTrace) => Icon(
+                            Icons.track_changes,
+                            size: 64,
+                            color: primaryColor,
+                          ),
                         ),
                         const SizedBox(height: 16),
                         Text(
